@@ -96,7 +96,7 @@ The study addresses two key research questions (**RQ**):
 
 
 <p align="center">
-  <img width="500" src="./figures/pipeline.png" />
+  <img width="600" src="./figures/pipeline.png" />
 </p>
 
 
