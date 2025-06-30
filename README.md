@@ -87,6 +87,12 @@ ollama run llama3.2
 
 This work proposes an alternative approach based on the direct conversion of SLMs derived from GPT-2, initially trained in Python, into C++ implementations. This strategy aims to preserve the original model functionality while ensuring probabilistic and real-time inference, without relying on quantization techniques or external libraries. Our approach was validated on four widely used MCU platforms: Arduino Nano BLE Sense 33, Portenta H7, ESP32, and Raspberry Pi Pico. The models were configured to operate fully offline and provide responses to user queries about a vehicle's manual, as defined in the experimental setup. The defined workflow to achieve the objectives of this study is shown in Fig. 1.
 
+<p align="center">
+  <img width="600" src="./figures/pipeline.png" />
+</p>
+
+
+
 
 The study addresses two key research questions (**RQ**):  
 
@@ -95,9 +101,6 @@ The study addresses two key research questions (**RQ**):
 - **RQ2:**  What are the effects of deploying SLMs on different MCUs in terms of inference time, energy consumption, and their suitability for real-time automotive applications?
 
 
-<p align="center">
-  <img width="600" src="./figures/pipeline.png" />
-</p>
 
 
 The architecture adopted in the proposed approach is based on a lightweight adaptation of the GPT encoder-only transformer model, tailored for edge environments. As illustrated in Fig. 2, the model follows a standard transformer-based pipeline composed of embedding layers, multiple transformer blocks, and a final projection layer. This design facilitates training compact models while retaining the core architectural advantages of the original GPT-2.
