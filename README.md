@@ -15,7 +15,7 @@
 This repository contains the code and resources for the paper "TinyGPT at the Edge: A Small Language Model for Vehicle Manual Assistance". This study integration of Small Language Models (SLMs) into embedded systems enables intelligent, real-time interactions in resource-constrained environments such as automotive interfaces, where cloud dependency is impractical. This paper presents a methodology for deploying lightweight GPT-based SLMs on microcontroller boards (Arduino Portenta H7, ESP32, Raspberry Pi Pico, and Nano 33 BLE) to answer user queries about vehicle manuals offline. We propose a direct Python-to-C++ conversion pipeline, avoiding quantization or external libraries, and evaluate model variants with {2-8} layers and {2-16} attention heads. Particularly, the 8-head, 4-layer configuration achieved the best test performance (loss: 10.86), demonstrating an effective balance between accuracy and efficiency. On the Portenta H7, it delivered low latency and energy usage (1.49 s, 561.37 mW), while lighter models (e.g., 2-head, 2-layer) reduced energy consumption at the cost of significantly higher loss (13.11). Experiments revealed hardware-specific trade-offs: the ESP32 provided a balanced profile, while the Pi Pico, despite operating under 100 mW, suffered from high latency (>200 s). The proposed solution supports fully offline, library-free inference on automotive-grade MCUs, enabling practical edge NLP deployments.
 
 <p align="center">
-  <img width="800" src="./figures/use_example.gif" />
+  <img width="600" src="./figures/use_example.gif" />
 </p>
 
 
