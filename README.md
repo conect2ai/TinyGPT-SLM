@@ -96,7 +96,7 @@ The study addresses two key research questions (**RQ**):
 
 
 <p align="center">
-  <img width="800" src="./figures/pipeline.png" />
+  <img width="500" src="./figures/pipeline.png" />
 </p>
 
 
@@ -104,7 +104,7 @@ The architecture adopted in the proposed approach is based on a lightweight adap
 
 
 <p align="center">
-  <img width="800" src="./figures/SLM_architecture.png" />
+  <img width="400" src="./figures/SLM_architecture.png" />
 </p>
 
 ## 📚 Jupyter Notebooks
