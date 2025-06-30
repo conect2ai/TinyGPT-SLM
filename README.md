@@ -110,22 +110,22 @@ The architecture adopted in the proposed approach is based on a lightweight adap
 ## 📚 Jupyter Notebooks
 
 
--  [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/conect2ai/SmartCities-2025-Quantifying-CO2/blob/main/src/codes/notebooks/01_EDA.ipynb) Dataset Generator
+-  [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/conect2ai/TinyGPT-SLM/blob/main/codes/01_dataset_generator.ipynb) Dataset Generator
 
 
 
--  [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/conect2ai/SmartCities-2025-Quantifying-CO2/blob/main/src/codes/notebooks/02_training.ipynb) Training the model
+-  [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/conect2ai/TinyGPT-SLM/blob/main/codes/02_training_model.ipynb) Training the model
 
 
 
 
--  [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/conect2ai/SmartCities-2025-Quantifying-CO2/blob/main/src/codes/notebooks/04_results_analysis.ipynb) Analisys Results
+-  [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/conect2ai/TinyGPT-SLM/blob/main/codes/03_results_analysis.ipynb) Analisys Results
 
 
 
 ## 📚 Arduino Codes
 
--  [![Jupyter](https://img.shields.io/badge/Arduino-00878F?logo=arduino&logoColor=fff&style=plastic)](https://github.com/conect2ai/SmartCities-2025-Quantifying-CO2/blob/main/src/codes/arduino/CO2_comb_elect_tree_model.ino) Arduino ML code
+-  [![Jupyter](https://img.shields.io/badge/Arduino-00878F?logo=arduino&logoColor=fff&style=plastic)](https://github.com/conect2ai/TinyGPT-SLM/blob/main/codes/arduino/tinyGPT_SLM.ino) Arduino ML code
 
 
 
